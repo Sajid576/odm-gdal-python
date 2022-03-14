@@ -22,4 +22,4 @@ $ bash translate.sh
 $ bash generate_tiles.sh
 ```
 
-For more information, (see here)[https://github.com/OpenDroneMap/ODM]
+For more information, [see here](https://github.com/OpenDroneMap/ODM)
