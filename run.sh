@@ -16,3 +16,5 @@ rm -r results/*
 shopt -s extglob
 mkdir results
 mv -vt results/ $PWD/!(images)
+# move results to the root directory
+mv -vt $RUNPATH results

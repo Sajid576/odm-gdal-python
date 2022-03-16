@@ -10,12 +10,6 @@
 $ bash run.sh
 ```
 
-- Scale the input orthophoto using GDAL_translate
-
-```
-$ bash translate.sh
-```
-
 - Generate the tiles from the results according to the specified zoom levels:
 
 ```
