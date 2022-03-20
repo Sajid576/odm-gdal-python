@@ -7,14 +7,14 @@ sudo docker run -ti --rm -v $RUNPATH/datasets:/datasets opendronemap/odm --proje
 
 # unlock all result folders
 sudo chmod 777 -R $RUNPATH/datasets/project
-cd $RUNPATH/datasets/project
+# cd $RUNPATH/datasets/project
 
-#clear previous results
+# #clear previous results
 rm -r results/*
 
 # move results
 shopt -s extglob
 mkdir results
-mv -vt results/ $PWD/!(images)
+mv -vt $RUNPATH/datasets/project/results/ $RUNPATH/datasets/project/!(images)
 # move results to the root directory
-mv -vt $RUNPATH results
+mv -vt $RUNPATH $RUNPATH/datasets/project/results/
