@@ -3,7 +3,7 @@
 RUNPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 echo $RUNPATH
-sudo docker run -ti  --rm -v $RUNPATH/datasets:/datasets opendronemap/odm --project-path /datasets project --dsm --orthophoto-resolution 4 
+sudo docker run -ti --rm -v $RUNPATH/datasets:/datasets opendronemap/odm --project-path /datasets project --dsm --orthophoto-resolution 4 --auto-boundary
 
 # unlock all result folders
 sudo chmod 777 -R $RUNPATH/datasets/project
