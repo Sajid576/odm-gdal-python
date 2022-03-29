@@ -1,5 +1,6 @@
 ## Prequisities
 
+- Linux
 - Python3
 - Docker
 
