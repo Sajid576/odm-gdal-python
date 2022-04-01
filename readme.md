@@ -4,7 +4,7 @@
 - Python3
 - Docker
 
-## Project Installation
+## Project Guide
 
 - Place your dataset folder in root project directory.
 - In run.sh, pass the folder name of the dataset in the dataset_folder option, pass the desired resolution of the image dataset.dim option is not recommended to change.If you face memory related problem while running the ODM,then you can reduce the dimensions of the image dataset and tune the value by trial and error.
