@@ -38,5 +38,6 @@ $ bash dsm_color.sh
 ![alt text](https://github.com/Sajid576/odm-gdal-python/blob/master/outcome.png)
 From the screenshot, we can see the outcome folder named `results`(1) that is generated after 1st command, output folder(2) that is generated after 2nd command and output folder(3) that is generated after 3rd command.
 ![alt text](https://github.com/Sajid576/odm-gdal-python/blob/master/outcome_2.png)
+In this screenshot, we can see the folder named `output_dsm_color_info` that is generated after 4th command.
 
 For more information, [see here](https://github.com/OpenDroneMap/ODM)
