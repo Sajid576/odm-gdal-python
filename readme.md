@@ -27,9 +27,16 @@ $ bash generate_tiles.sh
 $ bash generate_dsm_tiles.sh
 ```
 
+- 4. Generate dsm color legend information(json,png) :
+
+```
+$ bash dsm_color.sh
+```
+
 ## Screenshot
 
-![alt text](https://github.com/Sajid576/odm-gdal-python/blob/master/Outcome_Screenshot.png)
+![alt text](https://github.com/Sajid576/odm-gdal-python/blob/master/outcome.png)
 From the screenshot, we can see the outcome folder named `results`(1) that is generated after 1st command, output folder(2) that is generated after 2nd command and output folder(3) that is generated after 3rd command.
+![alt text](https://github.com/Sajid576/odm-gdal-python/blob/master/outcome_2.png)
 
 For more information, [see here](https://github.com/OpenDroneMap/ODM)
