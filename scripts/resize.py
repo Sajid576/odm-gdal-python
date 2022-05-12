@@ -52,6 +52,6 @@ def resize():
 
 if(isHighResolution() == True):
     print("Resizing")
-    # resize()
+    resize()
 else:
     print("Not resizing")
