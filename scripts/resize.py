@@ -6,14 +6,14 @@ import sys
 # parameters from bash script
 run_path = sys.argv[1]
 dim = sys.argv[2].split('=')[1]
-dataset_folder_name = sys.argv[3].split('=')[1]
-print(dataset_folder_name)
+dataset_folder_path = sys.argv[3].split('=')[1]
+print(dataset_folder_path)
 
 
 # main script
 max_width = int(dim.split(',')[0])
 max_height = int(dim.split(',')[1])
-path = run_path+"/"+dataset_folder_name+"/"
+path = dataset_folder_path+"/"
 output_path = run_path+"/datasets/project/images/"
 
 dirs = os.listdir(path)

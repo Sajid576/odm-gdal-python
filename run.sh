@@ -4,7 +4,7 @@ RUNPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 
 
-python3 $PWD/scripts/resize.py $RUNPATH dim=5000,3000 dataset_folder=sample2
+python3 $PWD/scripts/resize.py $RUNPATH dim=5000,3000 dataset_folder=/home/sajid576/Public/my_dataset
 
 echo $RUNPATH
 sudo docker run -ti --rm -v $RUNPATH/datasets:/datasets opendronemap/odm --project-path /datasets project --dsm --orthophoto-resolution 4 --auto-boundary
